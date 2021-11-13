@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(9, 124, 177);
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    border: none;
+    padding: 3em;
+    border-radius: 25px;
+    height: 15rem;
+    width: auto;
+    margin: 10%;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+}
+
+.btn {
+    background-color: rgb(224, 178, 28);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px cursive;
+    margin: 7px 5px;
+    cursor: pointer;
+}
+
+.h3 {
+    color: darkgrey;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.joke {
+    font-weight: lighter;
+    padding: 1em;
+}
+
+@media only screen and (max-width: 450px) {
+    .container {
+        height: 20rem;
+        margin: 5%;
+        padding: 0.5em;
+    }
+    .h3 {
+        padding: 0.5em;
+    }
+    .joke {
+        padding: 0;
+    }
+}
