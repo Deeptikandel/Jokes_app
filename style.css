@@ -29,6 +29,11 @@ body {
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
 .h3 {
     color: darkgrey;
     font-size: 1.5em;
